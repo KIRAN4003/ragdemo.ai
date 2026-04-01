@@ -1,0 +1,12 @@
+streamlit
+python-dotenv
+PyPDF2
+google-generativeai
+
+langchain  # core framework
+langchain-huggingface  # Connect huggingface models to perform embedding
+faiss-cpu  # Fast vector database to store embedded data
+langchain-community  # extra integration
+langchain-text-splitters  # to split large text into smaller chunks
+sentence-transformers  # pre-trained embedding models to convert text into vectors
+langchain-core  # document, chains etc...
