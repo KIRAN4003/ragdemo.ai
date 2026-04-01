@@ -15,7 +15,7 @@ from langchain_community.vectorstores import FAISS #to store the embedding for s
 key=os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=key)
 
-model=genai.GenerativeModel('gemini-1.5-flash')
+model=genai.GenerativeModel('gemini-2.5-flash')
 
 def load_embedding():
     return HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
